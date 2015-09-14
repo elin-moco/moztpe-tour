@@ -1,0 +1,31 @@
+{
+  "name": "Moz Taipei",
+  "type": "certified",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/icon_16.png",
+    "48": "/img/icons/icon_48.png",
+    "128": "/img/icons/icon_128.png"
+  },
+  "description": "A tour app for Mozilla Taipei office.",
+  "developer": {
+    "name": "Eddie Lin",
+    "url": "https://github.com/elin-moco/"
+  },
+  "default_locale": "en-US",
+  "orientation": "default",
+  "activities": {
+    "tour": {
+      "href": "./index.html",
+      "filters": {
+        "location": ["moz-tpe-4f"]
+      },
+      "returnValue": true
+    }
+  },
+  "permissions": {
+    "systemXHR": {},
+    "bluetooth":{},
+    "moz-firefox-accounts": {}
+  }
+}
